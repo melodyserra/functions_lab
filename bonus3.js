@@ -19,3 +19,4 @@ console.log("apple", letterCount("apple"));
 console.log("pizza", letterCount("pizza"));
 console.log("lulls", letterCount("lulls"));
 console.log("freebird", letterCount("freebird"));
+console.log("mIsSiSsIpPi", letterCount("mIsSiSsIpPi"));
