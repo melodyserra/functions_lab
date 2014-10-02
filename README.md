@@ -28,7 +28,22 @@ Functions Lab
       combine().
 
 5. Write a function that prints out how many times it has been
-   called.
+   called. For example:
+
+```
+var funCounter = function () {
+    console.log("I've been called " + x + " times");
+};
+
+funCounter();
+funCounter();
+funCounter();
+
+// Should print out:
+// => "I've been called 1 times"
+// => "I've been called 2 times"
+// => "I've been called 3 times"
+```
 
    Hint: Can you do this using only local variables? Think about
    what we talked about regarding variable scope. Can you rely on the
