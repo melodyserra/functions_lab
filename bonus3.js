@@ -7,7 +7,7 @@ var letterCount = function (str) {
 
     for (var i = 0; i < word.length; i++) {
         var letter = word[i];
-        if(typeof(counts[letter]) === 'undefined' ){
+        if(isNaN(counts[letter])){
             counts[letter] = 0;
         }
         counts[letter]++;
